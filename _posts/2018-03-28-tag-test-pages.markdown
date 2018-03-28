@@ -1,16 +1,16 @@
 ---
 layout:     post
-title:      "Hello 2018"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2018-03-28 12:00:00
+title:      "Add Tag"
+subtitle:   " \"add a new tag\""
+date:       2018-03-28 13:00:00
 author:     "BlackBeans"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 生活
+    - 数据库
 ---
 
-> “So, That's it. ”
+> “So，That's it. ”
 
 
 ## 前言
