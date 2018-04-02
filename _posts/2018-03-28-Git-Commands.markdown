@@ -12,7 +12,7 @@ tags:
 
 > "Time to start..."
 
-###一、提交到主干的步骤：
+### 一、提交到主干的步骤：
 
 1、`git status`  查看本地改动 
 
@@ -39,23 +39,37 @@ git push origin HEAD:refs/for/master`
 
 `git push origin local_jp:refs/for/idc_jp`
 
-###二、废弃评审，重提:
+### 二、废弃评审，重提:
+
 `git reset —soft 提交代码之前的commit id 
+
 git add 
+
 git commit -m “” 
+
 git push origin master:refs/for/master 
 `
-###三、拉代码时本地有修改
+
+### 三、拉代码时本地有修改
+
 `git stash`      存到缓冲区 
+
 `git stash pop`   拉回 
 
-###四、关于分支
+### 四、关于分支
+
 `git branch -a`        查看所有分支
+
 `git branch`           查看本地分支
+
 `git branch -r`        查看远程分支
+
 `git branch -D br `    删除本地分支
+
 `git checkout -b `     本地分支名x origin/远程分支名x，使用该方式会在本地新建分支x，并自动切换到该本地分支x。
+
 `git fetch origin `    远程分支名x:本地分支名x，使用该方式会在本地新建分支x，但是不会自动切换到该本地分支x，需要手动checkout。
+
 `git checkout master ` 切换回master分支
 
 
