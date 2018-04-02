@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "BlackBeans Blog",
+  "short_name": "BlackBeans Blog",
+  "description": "Doing the IT stuff is my hobit.",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
